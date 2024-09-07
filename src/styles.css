@@ -5,4 +5,35 @@
   body {
     background-color: aliceblue;
   }
+  .CalcTab{
+
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0%;
+    width: 100% ;
+    left: 0%;
+  }
+  .CalcTab ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .numbers{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   
+
+  }
+  .numbers button{
+
+    padding: 1rem;
+  }
+  .Ac{
+display: grid;
+grid-template-columns: repeat(1,1fr) ;
+
+  }
+  .Ac button{
+    padding: 0.5rem;
+  }
